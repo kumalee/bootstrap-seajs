@@ -1,0 +1,35 @@
+<!DOCTYPE>
+<html>
+	<meta charset="utf-8">
+	<title>Bootstrap-seajs Demo - Tabs</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<body>
+		<div class="container">
+		<div class="well">
+		<p>Bootstrap Tab Demo</p>
+		<p>init.js:</p>
+		<pre><code>
+		define(function(require){
+        		var $ = require("jquery");
+        		require('bootstrap.sea/bootstrap-tab')($);
+        		$(".nav-tabs a:last").tab("show");
+		});
+		</code></pre>
+		</div>
+		<ul class="nav nav-tabs">
+		  <li class="active"><a href="#home"  data-toggle="tab">Home</a></li>
+		  <li><a href="#profile"  data-toggle="tab">Profile</a></li>
+		  <li><a href="#messages"  data-toggle="tab">Messages</a></li>
+		  <li><a href="#settings"  data-toggle="tab">Settings</a></li>
+		</ul>
+		 
+		<div class="tab-content">
+		  <div class="tab-pane active" id="home">...</div>
+		  <div class="tab-pane" id="profile">...</div>
+		  <div class="tab-pane" id="messages">...</div>
+		  <div class="tab-pane" id="settings">...</div>
+		</div>
+	</div>
+		<script src="js/sea.js" data-main="init.js"></script>
+	</body>
+</html>
