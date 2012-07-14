@@ -18,3 +18,8 @@ Make bootstrap's js files modular
   make combine 将各个js合并，然后模块化，生成到当前目录的bootstrap-sea目录下
 
 4. 大功告成，你可以拷贝这些js到你项目中使用了！具体用法详见demo
+
+
+参考文章：
+
+[岁月如歌 《jQuery 插件的模块化》]http://lifesinger.wordpress.com/2011/05/18/jquery-plugins-modulization/
