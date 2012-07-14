@@ -22,4 +22,6 @@ Make bootstrap's js files modular
 
 参考文章：
 
-[岁月如歌 《jQuery 插件的模块化》]http://lifesinger.wordpress.com/2011/05/18/jquery-plugins-modulization/
+岁月如歌/玉伯 《jQuery 插件的模块化》
+
+http://lifesinger.wordpress.com/2011/05/18/jquery-plugins-modulization/
